@@ -1,0 +1,68 @@
+
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    background-color: white;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.header {
+    height: 60px;
+    padding: 10px;
+    display: flex;
+}
+
+.logo {
+    width: 50px;
+}
+
+.header-logo .header-titulo {
+    align-items: center;
+
+}
+
+.header-titulo h2, h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.puntos {
+    font-size: 50px;
+    margin-left: auto;
+}
+
+.foto {
+    width: 500px;
+    height: 400px;
+}
+
+.footer {
+    height: auto;
+    margin: 10px;
+    
+}
+.iconos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bookmark {
+    margin-left: auto;
+}
+
+.users {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: small;
+}
+.texto p {
+    text-align: justify;
+}
